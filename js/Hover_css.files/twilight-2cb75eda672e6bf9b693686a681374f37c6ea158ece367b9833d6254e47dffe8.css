@@ -1,0 +1,162 @@
+.cm-header {
+	font-weight: bold;
+}
+.cm-strong {
+	font-weight: bold;
+}
+.cm-em {
+	font-style: italic;
+}
+.CodeMirror-cursor {
+	border-left-color: white !important;
+}
+.CodeMirror-selected {
+	background: rgba(255, 255, 255, 0.05);
+}
+.CodeMirror-focused .CodeMirror-selected {
+	background: rgba(255, 255, 255, 0.1);
+}
+.CodeMirror-matchingbracket {
+	border-bottom-color: rgba(255, 255, 255, 0.5); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.CodeMirror-matchingtag {
+	border-bottom-color: rgba(255, 255, 255, 0.3); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.powers {
+	border-bottom-color: rgba(255, 255, 255, 0.05); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.editor-title-button svg {
+	fill: #999;
+}
+.editor-title-button:hover svg {
+	fill: #eee;
+}
+.editor-title-button:focus svg {
+	fill: #eee;
+}
+.cm-searching {
+	background: black; outline: rgba(255, 255, 255, 0.25) solid 2px;
+}
+.CodeMirror-hints {
+	background: rgb(51, 51, 51); border: 1px solid rgb(85, 85, 85); border-image: none;
+}
+.CodeMirror-hint {
+	color: rgb(255, 255, 255);
+}
+li.CodeMirror-hint-active {
+	background: rgb(193, 193, 193); color: rgb(0, 0, 0);
+}
+.project-editor-warning {
+	background: rgba(255, 255, 255, 0.1);
+}
+.cm-keyword {
+	color: rgb(221, 202, 126);
+}
+.cm-atom {
+	color: rgb(221, 202, 126);
+}
+.box-html .cm-atom {
+	color: rgb(150, 179, 138);
+}
+.cm-number {
+	color: rgb(208, 120, 42);
+}
+.cm-unit {
+	color: rgb(208, 120, 42);
+}
+.cm-def {
+	color: rgb(128, 155, 189);
+}
+.cm-variable {
+	color: rgb(221, 202, 126);
+}
+.cm-variable-2 {
+	color: rgb(128, 155, 189);
+}
+.cm-property {
+	color: rgb(154, 130, 151);
+}
+.cm-operator {
+	color: rgb(204, 204, 204);
+}
+.cm-comment {
+	color: rgb(102, 102, 102);
+}
+.cm-string {
+	color: rgb(150, 179, 138);
+}
+.cm-string-2 {
+	color: rgb(150, 179, 138);
+}
+.cm-meta {
+	color: rgb(154, 130, 151);
+}
+.cm-header {
+	color: rgb(255, 100, 0);
+}
+.cm-tag {
+	color: rgb(167, 146, 90);
+}
+.box-css .cm-tag {
+	color: rgb(221, 202, 126);
+}
+.cm-attribute {
+	color: rgb(221, 202, 126);
+}
+.cm-strong {
+	color: rgb(221, 202, 126);
+}
+.cm-em {
+	color: rgb(221, 202, 126);
+}
+.cm-qualifier {
+	color: rgb(221, 202, 126);
+}
+.cm-builtin {
+	color: rgb(221, 202, 126);
+}
+body.editor {
+	background: rgb(29, 31, 32);
+}
+.box {
+	background: rgb(29, 31, 32);
+}
+.editor .top-boxes {
+	background: rgb(29, 31, 32);
+}
+.CodeMirror-gutter-wrapper {
+	background: rgb(29, 31, 32);
+}
+body.project .editor-pane {
+	background: rgb(29, 31, 32);
+}
+body.project .editor {
+	background: rgb(29, 31, 32);
+}
+.box pre {
+	color: white;
+}
+.editor .top-boxes pre {
+	color: white;
+}
+.CodeMirror-gutter-wrapper pre {
+	color: white;
+}
+body.project .editor-pane pre {
+	color: white;
+}
+body.project .editor pre {
+	color: white;
+}
+.CodeMirror-guttermarker-subtle {
+	color: rgb(52, 52, 52);
+}
+.CodeMirror-linenumber {
+	color: rgb(52, 52, 52);
+}
+.CodeMirror-simplescroll-horizontal div {
+	background: rgb(102, 102, 102);
+}
+.CodeMirror-simplescroll-vertical div {
+	background: rgb(102, 102, 102);
+}

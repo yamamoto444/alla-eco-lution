@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>お問い合わせ</title>
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<script type="text/javascript" src="js/jquery.rollover.js"></script>
+<script type="text/javascript" src="js/jquery.smoothscroll.js"></script>
+
+<script>
+$(function(){
+	$(".slide").carouFredSel({
+		scroll:{
+		fx:"crossfade",
+		duration:800
+		},
+		responsive:true,
+		width:"100%"
+	});
+});
+</script>
+<script>
+	$(function(){
+		//ロールオーバー
+		$(".roll img").rollover();
+	});
+	</script>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<div id="all">
+<body class="contact">
+	<div class="header-nav">
+		<header>
+			<div class="inner">
+				<p>不用品回収・遺品整理のエコリューション</p>
+					<a href="index.html"><h1><img src="img/common01.png" width="360" height="116" alt="エコリューション　ロゴ
+since2018 eco-lution"/></h1></a>
+				<div class="number">
+				<a href="contact.html">0120-000-000</a>
+				</div>
+			</div>
+		</header>
+		<nav>
+			<ul>
+				<li class="home-btn roll"><a href="index.html"><img src="img/common03.png" width="35" height="36" alt=""/></a></li>
+				<li><a href="service.html">サービス一覧</a></li>
+				<li><a href="about.html">当社の強み</a></li>
+				<li><a href="price.html">料金案内</a></li>
+				<li><a href="area.html">対応エリア</a></li>
+				<li><a href="faq.html">よくあるご質問</a></li>
+				<li><a href="contact.html"><span>お問い合わせ</span></a></li>
+			</ul>
+		</nav>
+	</div>
+<h2>Contact<br>お問い合わせ</h2>
+	<main>
+		<div class="easy-contact">
+		<p><img src="img/contact02.jpg" width="360" height="260" alt=""/></p>
+		<div class="text">
+			<h4>まずはお気軽にお問い合せください。</h4>
+			<p>お電話または下記のお問い合せフォームより<br>
+				ご連絡ください。<br>
+				こちらから折り返し、メールまたはお電話にて<br>
+				ご連絡を差し上げます。</p>
+		</div>
+</div>
+			<section class="form">
+		<h3>お問い合わせフォーム</h3>
+		<form>
+		<table>
+			<tbody>
+				<tr>
+					<th scope="row">お問合せ内容<span>※</span></th>
+					<td><p>
+							<label>
+								<input type="checkbox" name="contact" value="mitsumori" id="contact_0">
+								見積り希望</label>
+							<label>
+								<input type="checkbox" name="contact" value="sonota" id="contact_1">
+								その他のご相談</label>
+					</p></td>
+				</tr>
+				<tr>
+					<th scope="row">お名前<span>※</span></th>
+					<td><input name="textfield" type="text" required id="textfield" placeholder="全角"></td>
+				</tr>
+				<tr>
+					<th scope="row">フリガナ<span>※</span></th>
+					<td><input name="textfield2" type="text" required id="textfield2" placeholder="半角カタカナ"></td>
+				</tr>
+				<tr>
+					<th scope="row">メールアドレス<span>※</span></th>
+					<td><input name="email" type="email" required id="email" placeholder="半角英数"></td>
+				</tr>
+				<tr>
+					<th scope="row">電話番号<span>※</span></th>
+					<td><input name="tel" type="tel" required id="tel" placeholder="半角数字"></td>
+				</tr>
+				<tr>
+					<th scope="row">依頼内容</th>
+					<td><input name="textfield3" type="text" id="textfield3"></td>
+				</tr>
+				<tr>
+					<th scope="row">回収希望物<span>※</span></th>
+					<td><p>
+	<label>
+		<input type="checkbox" name="device" value="pc" id="device_0">
+		パソコン</label>
+	<label>
+		<input type="checkbox" name="device" value="frizer" id="device_1">
+		冷蔵庫</label>
+	<label>
+		<input type="checkbox" name="device" value="TV" id="device_2">
+		テレビ</label>
+	<label>
+		<input type="checkbox" name="device" value="washmachine" id="device_3">
+		洗濯機</label>
+	<label>
+		<input type="checkbox" name="device" value="text" id="device_4">
+		備考欄記入</label>
+</p></td>
+				</tr>
+				<tr>
+					<th scope="row">回収物画像</th>
+					<td><p>
+						<input name="fileField" type="file" id="fileField">
+					</p>
+					<p class="comment">★お写真があればスムーズなご対応が可能です</p></td>
+				</tr>
+				<tr>
+					<th scope="row">備考</th>
+					<td><textarea name="textarea" cols="70" rows="5" id="textarea" placeholder="★依頼内容についてご自由にご記入ください。「家の中にあるものを片付けたい」「引っ越しの為に不用品を回収してほしい」など、依頼内容の詳細についてもこちらにご記入いただけます"></textarea></td>
+				</tr>
+			</tbody>
+		</table>
+		<input type="image" src="img/contact04-btn.png" id="submit" alt="送信ボタン">
+				</form>
+		
+			</section>
+		<div class="usefor">
+		<p>＜個人情報の利用目的＞<br>
+			お客様よりお預かりした個人情報は、以下の目的に限定し利用させていただきます。<br>
+			・本サービスに関する顧客管理<br>
+		・本サービスの運営上必要な事項のご連絡</p>
+		<p> ＜個人情報の提供について＞<br>
+			当社ではお客様の同意を得た場合または法令に定められた場合を除き、<br>
+			取得した個人情報を第三者に提供することはいたしません。<br>
+			＜個人情報の委託について＞<br>
+			当社では、利用目的の達成に必要な範囲において、<br>
+			個人情報を外部に委託する場合があります。<br>
+			これらの委託先に対しては個人情報保護契約等の措置をとり、適切な監督を行います。</p>
+<p> ＜個人情報の安全管理＞<br>
+			当社では、個人情報の漏洩等がなされないよう、適切に安全管理対策を実施します。<br>
+			＜個人情報を与えなかった場合に生じる結果＞<br>
+			必要な情報を頂けない場合は、それに対応した当社のサービスをご提供できない場合が<br>
+			ございますので予めご了承ください。</p>
+		<p> ＜個人情報の開示･訂正・削除･利用停止の手続について＞<br>
+			当社では、お客様の個人情報の開示･訂正･削除・利用停止の手続を定めさせて頂いております。<br>
+			ご本人である事を確認のうえ、対応させて頂きます。<br>
+			個人情報の開示･訂正･削除・利用停止の具体的手続きにつきましては、<br>
+			お電話でお問い合わせください。</p>
+</div>
+		<div class="roll"><p class="pagetop"><a href="#all"><img src="img/common04.png" width="160" height="60" alt="ページトップへ"/></a></p></div>
+		</main>
+	<footer>
+	<div class="inner">
+		<div class="icon">
+			<a href="#"><p><img src="img/fb-icon.png" width="30" height="30" alt="フェイスブックへリンク"/></p>
+			<p><img src="img/twitter-icon.png" width="30" height="30" alt="ツイッターへリンク"/></p>
+			<p><img src="img/insta-icon.png" width="30" height="30" alt="インスタグラムへリンク"/></p>
+			<p><img src="img/line-icon.png" width="30" height="30" alt="ラインへリンク"/></p>
+			</a>
+		</div>
+		<p class="link"><a href="index.html">ホーム</a> | <a href="service.html">サービス一覧</a> | <a href="about.html">当社の強み</a> | <a href="price.html">料金案内</a> |<a href="area.html"> 対応エリア</a> | <a href="faq.html">よくあるご質問</a> | <a href="contact.html">お問い合わせ</a></p>
+		<p>Copyright &copy;  2018 不用品回収 遺品整理のエコリューション.All Rights Reserved.</p>
+	</div>
+	</footer>
+</body>
+	</div>
+</html>
